@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+}
+section
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #E74C3C;
+    font-size: 20px;
+}
+section .text
+{
+    position: relative;
+    text-align: center;
+    color: black;
+    margin: 40px;
+    max-width: 650px;
+}
+section .text span
+{
+    position: relative;
+    display: inline-block;
+}
